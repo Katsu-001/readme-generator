@@ -42,8 +42,7 @@ const questions = [
             'Apache 2.0 License',
             'Boost Software License 1.0',
             'BSD 3-Clause License',
-            'The MIT License',
-            'The Do What the Fuck You Want to Public License',
+            'The MIT License',,
             'None'
         ],
         name: 'license'
@@ -60,13 +59,13 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
+// Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
      err ? console.log(err) : console.log("Successfully created README.md!"))
 }
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then (answers => writeToFile('README.md', generateMarkdown(answers)))
