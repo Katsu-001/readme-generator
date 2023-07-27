@@ -1,7 +1,3 @@
-# Professional README Generator Starter Code
-
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
-
 # JS ReadMe Generator
 
 ## Description
@@ -12,9 +8,8 @@ A simple command-line application using javascript to create a readme file using
 
 Follow through the prompts in the command-line to generate a markdown file for your readme.
 
+follow link for demonstration: 
+https://drive.google.com/file/d/19SlYEVJ3THwAl_rG66SiJhXRFFYk5vS7/view?usp=sharing
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+GitHub Repo:
+https://github.com/Katsu-001/readme-generator
